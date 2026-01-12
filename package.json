@@ -8,9 +8,15 @@
     "check": "prettier --check './**/*.{html,css,js}'",
     "format": "prettier --write './**/*.{html,css,js}'",
     "lint": "stylelint '**/*.css'",
-    "lintfix": "stylelint '**/*.css' --fix",
+    "lintfix": "stylelint '**/*.css' --fix",    
     "checkAll": "npm run check && npm run lint",
-    "fixAll": "npm run format && npm run lintfix"
+    "fixAll": "npm run format && npm run lintfix",
+    "check-w": "prettier --check \"**/*.{html,css,js}\"",
+    "format-w": "prettier --write \"**/*.{html,css,js}\"",
+    "lint-w": "stylelint \"**/*.css\"",
+    "lintfix-w": "stylelint \"**/*.css\" --fix",
+    "checkAll-w": "npm run check-w && npm run lint-w",
+    "fixAll-w": "npm run format-w && npm run lintfix-w"
   },
   "author": "",
   "license": "ISC",
