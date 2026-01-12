@@ -10,6 +10,7 @@ html {
 
 .page {
   position: relative;
+  padding-top: 60px;
   display: flex;
   height: inherit;
   margin: 0;
@@ -37,7 +38,6 @@ html {
 .page__title {
   z-index: 1;
   max-width: 720px;
-  padding-top: 60px;
   margin: 0 auto;
   font-size: 116px;
   letter-spacing: 3.5px;
